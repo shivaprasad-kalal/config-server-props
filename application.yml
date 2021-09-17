@@ -26,5 +26,4 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect      
 inventory:
-  service:
-    baseURL: http://INVENTORY-SERVICE/api/inventory 
+  url: http://INVENTORY-SERVICE/api/inventory 
